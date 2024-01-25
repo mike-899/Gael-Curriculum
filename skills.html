@@ -9,17 +9,18 @@
 <body>
 
 <div class="folder0">
-    <div class="titleBar">Desktop\</div>
+    <div class="titleBar"><div class="GoBack" onclick="openFolder('Index')">⭠</div><div>Desktop\</div><div class="GoBack" onclick="openFolder('Index')">Gael-Curriculum</div></div>
     <div class="folder1">
-        <h1 class="folderTitle">Habilidades</h1>
-        <p class="fileItem">Python</p>
-        <p class="fileItem">HTML</p>
-        <p class="fileItem">CSS</p>
-        <p class="fileItem">JavaScript</p>
+        <div class="fileItem" onclick="openFolder('myInfo')">Mi Información</div>
+        <!--<div class="folderItem" onclick="openFolder('experience')">Experiencia Laboral</div>-->
+        <div class="folderItem" onclick="openFolder('projects')">Proyectos</div>
+        <div class="folderItem" onclick="openFolder('education')">Educación y Certificaciones</div>
+        <div class="folderItem" onclick="openFolder('skills')">Habilidades</div>
+        <div class="fileItem" onclick="openFile('contact')">Contacto</div>
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="scripts.js"></script>
 
 </body>
 </html>
